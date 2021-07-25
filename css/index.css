@@ -36,10 +36,10 @@ li{
   cursor: pointer;
 }
 
-li a{
+/* li a{
   display: block;
   width: 100%;
-}
+} */
 
 
 header{
@@ -357,8 +357,8 @@ footer{
   content: '|';
   color: #fff;
   padding: 0 10px; 
-
-  /* user-select: none;
+  display: inline-block;
+ user-select: none;
   cursor:auto;
 }
 
