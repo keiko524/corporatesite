@@ -3,6 +3,7 @@
 }
 a{
   text-decoration: none;
+  color: inherit;
 }
 
 body{
@@ -347,6 +348,14 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.footer-list li{
+    transition: .3s;
+}
+
+.footer-list li:hover{
+  opacity: .7;
 }
 
 .footer-list li a{
