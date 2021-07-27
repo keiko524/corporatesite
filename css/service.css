@@ -154,7 +154,6 @@ footer{
   color:#fff;
   display: flex;
   justify-content: space-between;
-  /* padding: 20px calc((100% - 1080px) / 2); */
   padding: 20px calc((100% - 75%) / 2);
   align-items: center;
   font-size: 12px;

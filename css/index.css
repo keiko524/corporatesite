@@ -37,10 +37,6 @@ li{
   cursor: pointer;
 }
 
-/* li a{
-  display: block;
-  width: 100%;
-} */
 
 
 header{
@@ -141,7 +137,6 @@ header > a > img {
 }
 
 #service{
-  /* padding: 0 calc((100% - 1080px) / 2); */
   padding: 0 calc((100% - 75%) / 2);
 }
 
@@ -185,7 +180,6 @@ header > a > img {
 #news{
   background-color: #000;
   color: #fff;
-  /* padding: 80px calc((100% - 1080px) / 2); */
   padding: 80px calc((100% - 75%) / 2);
 }
 
@@ -233,7 +227,6 @@ table td:last-child{
 
 /* blog */
 #blog{
-  /* padding: 0 calc((100% - 1080px) / 2); */
   padding: 0 calc((100% - 75%) / 2);
 }
 
@@ -336,7 +329,6 @@ footer{
   color:#fff;
   display: flex;
   justify-content: space-between;
-  /* padding: 20px calc((100% - 1080px) / 2); */
   padding: 20px calc((100% - 75%) / 2);
   align-items: center;
   font-size: 12px;
@@ -351,7 +343,7 @@ footer{
 }
 
 .footer-list li{
-    transition: .3s;
+  transition: .3s;
 }
 
 .footer-list li:hover{
@@ -365,13 +357,11 @@ footer{
 .footer-list > li:not(:first-child)::before{
   content: '|';
   color: #fff;
-  padding: 0 10px; 
+  padding: 0 10px;
   display: inline-block;
- user-select: none;
+  user-select: none;
   cursor:auto;
 }
-
-
 
 .footer-list li:not(:last-child){
   margin-right: 20px;
