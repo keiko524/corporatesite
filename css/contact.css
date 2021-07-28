@@ -121,10 +121,8 @@ textarea{
   width: 100%;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-}
-
-input{
-  line-height: 1.5em;
+  padding: 5px;
+  font-size: 16px;
 }
 
 span{
@@ -179,7 +177,7 @@ footer{
     transition: .3s;
 }
 
-.footer-list li:hover{
+.footer-list li a:hover{
   opacity: .7;
 }
 

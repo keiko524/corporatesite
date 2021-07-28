@@ -188,7 +188,7 @@ footer{
     transition: .3s;
 }
 
-.footer-list li:hover{
+.footer-list li a:hover{
   opacity: .7;
 }
 

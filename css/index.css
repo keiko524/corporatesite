@@ -202,10 +202,21 @@ header > a > img {
 }
 
 .news-contents table{
-  background-color: #fff;
-  color: black;
+  /* background-color: #fff; */
+  /* color: black; */
   width: 100%;
   margin-top: 30px;
+}
+
+table tr{
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  transition: .3s;
+}
+
+table tr:hover{
+  opacity: .8;
 }
 
 table td{
@@ -223,6 +234,9 @@ table td:last-child{
   width: 90%;
   font-weight: bold;
 }
+
+
+
 
 
 /* blog */
@@ -342,18 +356,15 @@ footer{
   align-items: center;
 }
 
-.footer-list li{
+.footer-list li a{
   transition: .3s;
+  color: #fff;
 }
 
-.footer-list li:hover{
+.footer-list li a:hover{
   opacity: .7;
 }
 
-.footer-list li a{
-  color: #fff;
-}
- 
 .footer-list > li:not(:first-child)::before{
   content: '|';
   color: #fff;
